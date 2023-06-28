@@ -1,5 +1,6 @@
 interface ITournament {
     id: string,
+    name: string,
     racers: IRacer[],
     status: string,
     game?: IRacerGame[]
